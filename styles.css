@@ -280,6 +280,16 @@ project:last-child {
 .footer {
   background-color: #242424;
 }
+.footer__logo{
+  margin-bottom: 20px;
+}
+.footer__social--list {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
 .footer__row {
   display: flex;
   flex-direction: column;
@@ -293,7 +303,8 @@ project:last-child {
   height: 70px;
 }
 .footer__social--link,
-.footer__copywright {
+.footer__copywright,
+.footer__logo--popper  {
   color: white;
   text-decoration: none;
   margin: 0 12px;
