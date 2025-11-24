@@ -395,6 +395,7 @@ footer {
   font-size: 20px;
 }
 .footer__logo--popper {
+  display: flex;
   position: absolute;
   right: 0;
   top: 30px;
@@ -408,7 +409,7 @@ footer {
   position: relative;
 }
 .footer__anchor:hover .footer__logo--popper {
-  transform: translateX(60px);
+  transform: translateX(80px);
   opacity: 1;
 }
 
